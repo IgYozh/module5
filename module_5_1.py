@@ -9,8 +9,8 @@ class House:
         if self.number_of_floors >= new_floor >= 1:
             for i in range(1, new_floor + 1):
                 print(i)
-            else:
-                print("Такого этажа не существует")
+        else:
+            print("Такого этажа не существует")
 
 
 h1 = House('ЖК Горский', 18)
